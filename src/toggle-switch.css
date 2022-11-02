@@ -1,0 +1,44 @@
+#toggle-switch{
+    margin-left:1rem;
+    display: grid;
+    grid-template-columns: repeat(3,30px);
+    place-items:center;
+}
+.switch-text{
+    padding-inline: 1rem;
+}
+.theme-select{
+    -webkit-appearance: none;
+    appearance: none;
+}
+#switch-container{
+    position: relative;
+    border-radius: 2rem;
+    height:1.4rem;
+    grid-column: 1 / span 3;
+    background-color: var(--rest-background);
+}
+#slider{
+    width:1rem;
+    height:1rem;
+    background-color: var(--equal-btn);
+    position: absolute;
+    top:0.15rem;
+    border-radius: 50%;
+    transition: all 500ms;
+}
+#switch-container > label{
+    padding-inline:0.9rem;
+}
+#switch-container > label:hover{
+    cursor: pointer;
+}
+#one:checked ~ #switch-container #slider{
+    left:0.3rem;
+}
+#two:checked ~ #switch-container #slider{
+    left:2.3rem;
+}
+#three:checked ~ #switch-container #slider{
+    left:4.15rem;
+}
