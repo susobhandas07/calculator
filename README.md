@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshots/'Web capture_2-11-2022_213558_legendary-sopapillas-047412.netlify.app.jpeg')
+![](./screenshots/Web%20capture_2-11-2022_213558_legendary-sopapillas-047412.netlify.app.jpeg)
 
 
 
